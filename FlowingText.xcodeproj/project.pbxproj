@@ -13,6 +13,7 @@
 		C4A3044E25E3BE6300FF2ADD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A3044D25E3BE6300FF2ADD /* Preview Assets.xcassets */; };
 		C4A3045925E3BE6400FF2ADD /* FlowingTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3045825E3BE6400FF2ADD /* FlowingTextTests.swift */; };
 		C4A3046425E3BE6400FF2ADD /* FlowingTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3046325E3BE6400FF2ADD /* FlowingTextUITests.swift */; };
+		C4A3047525E3C08C00FF2ADD /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3047425E3C08C00FF2ADD /* TextModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C4A3045F25E3BE6400FF2ADD /* FlowingTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowingTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A3046325E3BE6400FF2ADD /* FlowingTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowingTextUITests.swift; sourceTree = "<group>"; };
 		C4A3046525E3BE6400FF2ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A3047425E3C08C00FF2ADD /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C4A3044A25E3BE6300FF2ADD /* Assets.xcassets */,
 				C4A3044F25E3BE6300FF2ADD /* Info.plist */,
 				C4A3044C25E3BE6300FF2ADD /* Preview Content */,
+				C4A3047425E3C08C00FF2ADD /* TextModifier.swift */,
 			);
 			path = FlowingText;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C4A3044925E3BE6200FF2ADD /* ContentView.swift in Sources */,
 				C4A3044725E3BE6200FF2ADD /* FlowingTextApp.swift in Sources */,
+				C4A3047525E3C08C00FF2ADD /* TextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
