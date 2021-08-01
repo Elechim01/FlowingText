@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Color.black
-            Text("Ciamo Mondo")
+            Text("Ciao Mondo")
                 .font(Font.system(size: 45, weight: .bold, design: .rounded))
                 .modifier(FlowTextModifier(backgorund: Image("mosconi")))
         }.edgesIgnoringSafeArea(.all)
